@@ -1,0 +1,4 @@
+# sign up on http://twilio.com
+caller_id: "your_twilio_number"
+twilio_sid: "your_twilio_sid"
+twilio_tkn: "your_twilio_token"
