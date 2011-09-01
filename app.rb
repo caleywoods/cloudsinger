@@ -2,8 +2,6 @@ require 'sinatra'
 require 'yaml'
 require 'twilio'
 
-CALLER_ID = config['caller_id']
-
 # You need to replace the entries in config.yml
 # with your own twilio information like so:
 #
@@ -15,6 +13,7 @@ CALLER_ID = config['caller_id']
 # where param is replaced by an option in the yaml
 # file.
 config = YAML.load_file('./config/config.yml')
+CALLER_ID = config['caller_id']
 
 get '/' do
   haml :index
