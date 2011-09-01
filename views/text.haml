@@ -1,0 +1,10 @@
+%form{:action => "/sms", :method => "POST", :name => "sms_form"}
+  %label{:for => "number"} Number:
+  %br/
+  %input{:type => "text", :name => "number"}
+  %br/
+  %label{:for => "msg"} Message:
+  %br/
+  %textarea{:name => "msg"}
+  %br/
+  %input{:type => "submit", :class => "txt_btn", :value => "Text Me!"}

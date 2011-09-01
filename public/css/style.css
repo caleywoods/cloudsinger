@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background: url(images/bg.png) repeat;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 60px;
+}
+
+a {
+  color: #3b7da6;
+}
+
+.sms {
+  margin: 10px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 8px 10px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: 0 1px #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #f4f4f4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e9e9e9));
+  background: -moz-linear-gradient(center top, #fefefe 0%, #e9e9e9 100%);
+  background: -moz-gradient(center top, #fefefe 0%, #e9e9e9 100%);
+  border: 1px solid #c9c9c9;
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  -moz-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -1px 0 #ffffff;
+  -moz-box-shadow: inset 0 -1px 0 #ffffff;
+  box-shadow: inset 0 -1px 0 #ffffff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 0 7px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 0 7px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 0 7px rgba(0, 0, 0, 0.4) inset;
+}
+
+input[type="submit"] {
+  color: #fff;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  background: #d26624;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e2893a), to(#c2420d));
+  background: -moz-linear-gradient(center top, #e2893a 0%, #c2420d 100%);
+  background: -moz-gradient(center top, #e2893a 0%, #c2420d 100%);
+  border: 1px solid #c2420d;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+
+header {
+  background: #444e65;
+  background: -webkit-gradient(linear, left top, left bottom, from(#626b82), to(#253047));
+  background: -moz-linear-gradient(center top, #626b82 0%, #253047 100%);
+  background: -moz-gradient(center top, #626b82 0%, #253047 100%);
+  padding: 15px 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+header h1 {
+    font-family: "helvetica neue";
+    position: absolute;
+    top: 8px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+header a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header aside {
+  float: right;
+}
+
+header img {
+  position: absolute;
+  top: 10px;
+  left: 265px;
+}
+
+form input[type="text"], form textarea {
+  background: #f4f4f4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#fefefe));
+  border: 1px solid #c9c9c9;
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+  padding: 7px 10px;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  width: 170px;
+}
+
+form input[type="text"]:focus, form textarea:focus {
+  border: 1px solid #999;
+}
+
+form input[type="submit"] {
+    width: 190px;
+}
+
+footer .twitter a {
+  background: url(images/twitter.png) no-repeat;
+  text-decoration: none;
+}
